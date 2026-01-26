@@ -1,0 +1,26 @@
+1.The web page with CSS applied to the third web page (right-most)
+
+2.Just like you saw in the previous video, consider a web page with multiple paragraph tags. If we write a CSS ruleset use a p selector, which paragraph(s) would be affected by the style?
+
+p {
+  background-colors: pink;
+{
+Answer:all paragraphs
+
+
+3.Which of the following HTML elements match the above CSS statement? Please select all that apply:
+  <div class="right"></div>
+  <p class="highlight module right"></p>
+
+4.Which of the following CSS declarations can be used to represent the standard color for blue?
+  color: #00f;
+  color: blue ;
+  color:rgb(0,0,255);
+
+
+
+
+
+
+
+
