@@ -1,0 +1,107 @@
+.card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.main-image {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.thumbnails img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.rating {
+  color: #ffc107; 
+  font-size: 1.2rem;
+}
+
+.rating-value {
+  color: #333; 
+  margin-left: 5px;
+  font-size: 0.9rem;
+}
+
+.view-btn {
+  text-align: center;
+  padding: 8px;
+  background: #ff3b30;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.action-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 22px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.like-btn {
+  color: #e63946; 
+}
+
+.like-btn:hover {
+  transform: scale(1.2);
+  color: #ff4d6d;
+}
+
+.delete-btn {
+  color: #6c757d; 
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+  color: #dc3545;
+}
