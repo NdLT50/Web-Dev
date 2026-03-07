@@ -1,9 +1,11 @@
 <div class="container">
   <h2>Photos</h2>
 
-  <div class="grid">
+  <p *ngIf="loading">Loading...</p>
+
+  <div class="grid" *ngIf="!loading">
     <div class="photo-card" *ngFor="let photo of photos">
-      <img [src]="'https://picsum.photos/150?random=' + photo.id">
+      <img [src]="'https://picsum.photos/150?random=' + photo.id" alt="photo">
       <p>{{ photo.title }}</p>
     </div>
   </div>

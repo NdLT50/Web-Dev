@@ -1,49 +1,45 @@
 .container {
-  max-width: 900px;
-  margin: 50px auto;
+  margin-top: 30px;
 }
 
 h2 {
   margin-bottom: 20px;
-  color: #1f2937;
 }
 
-.album-card {
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
   background: white;
-  padding: 15px 20px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  padding: 15px;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid #ddd;
 }
 
-.album-card:hover {
-  transform: translateY(-2px);
-}
-
-.album-title {
-  color: #2563eb;
+li a {
   text-decoration: none;
-  font-weight: 500;
+  color: #2c3e50;
+  font-weight: bold;
 }
 
-.album-title:hover {
-  text-decoration: underline;
+li a:hover {
+  color: #3498db;
 }
 
 button {
-  padding: 6px 12px;
   border: none;
-  background-color: #ef4444;
+  background-color: #e74c3c;
   color: white;
+  padding: 8px 14px;
   border-radius: 5px;
-  cursor: pointer;
-  transition: 0.2s;
 }
 
 button:hover {
-  background-color: #dc2626;
-}
+  background-color: #c0392b;
+}     
